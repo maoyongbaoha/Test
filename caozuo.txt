@@ -1,0 +1,32 @@
+ls 当前目录
+pwd 当前目录全路径
+
+git config --global user.name 'maoyongbaoha'
+
+git config --global user.email '2128862889@qq.com'
+
+mkdir test 创建文件
+
+git config --list 查看全局环境
+
+git init 初始化init
+
+touch xxx 创建一个git文件
+
+git status 查看git 状态
+git add 提交到暂存区
+git commit -m '描述' 把暂存区提交到窗库
+
+vim  xxx 修改数据
+Esc :wq enter 保存退出
+
+rm -rf xx删除数据
+git rm xx提交删除的操作到暂存区
+git commit -m 
+
+exit 退出 
+
+git clone 仓库地址
+
+如果无法同步，修改文件.git/config
+url = https://用户名:密码@github.com/maoyongbaoha/xxx
